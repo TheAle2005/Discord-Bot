@@ -20,7 +20,7 @@ client.on("message", function(message){
       var embed = new Discord.RichEmbed()
       .addField('Commands for AleBot!\n\n',
       '**'+prefix+'profile** Shows your profile pic in a image.\n' +
-      '**'+prefix+'bio** Tells you Ale\'s profile', true)
+      '**'+prefix+'bio** Tells you AleBots Owner Bio\'s profile', true)
       .setFooter("AleBot Copyright 2017. This was made by Alee14 and Ale!")
       .setColor(0x00FFFF)
       message.channel.sendEmbed(embed);
@@ -32,11 +32,13 @@ client.on("message", function(message){
 
     if(command === 'bio'){
       message.channel.send("<><><><><><><><><><><><>\n" +
+                           "Bot Owner Bio!\n" +
+                           "<><><><><><><><><><><><>\n" +
                            "Name: Alejandro V\n" +
                            "<><><><><><><><><><><><>\n" +
-                           "User: @Alejandro V\n" +
+                           "User: @Alejandro V#8169\n" +
                            "<><><><><><><><><><><><>\n" +
-                           "Birthday: May 10, 2005\n" +              
+                           "Birthday: May 10, 2005\n" +
                            "<><><><><><><><><><><><>\n" +
                            "Gender: Male\n" +
                            "<><><><><><><><><><><><>\n" +

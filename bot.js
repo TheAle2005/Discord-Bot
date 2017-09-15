@@ -36,9 +36,7 @@ client.on("message", function(message){
                            "<><><><><><><><><><><><>\n" +
                            "User: @Alejandro V\n" +
                            "<><><><><><><><><><><><>\n" +
-                           "Birthday: May 10, 2005\n" +
-                           "<><><><><><><><><><><><>\n" +
-                           "Hair Color: Black\n" +
+                           "Birthday: May 10, 2005\n" +              
                            "<><><><><><><><><><><><>\n" +
                            "Gender: Male\n" +
                            "<><><><><><><><><><><><>\n" +
